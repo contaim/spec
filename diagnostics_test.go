@@ -1,7 +1,3 @@
-/*
- *   Copyright (c) 2020
- *   All rights reserved.
- */
 // Copyright (c) 2020 Contaim, LLC
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -14,8 +10,8 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/contaim/spec"
 	"github.com/hashicorp/hcl/v2"
-	"github.com/responserms/spec"
 	"github.com/stretchr/testify/assert"
 )
 

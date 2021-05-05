@@ -13,10 +13,10 @@ package spec_test
 import (
 	"testing"
 
+	"github.com/contaim/spec"
+	"github.com/contaim/spec/parser"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"github.com/responserms/spec"
-	"github.com/responserms/spec/parser"
 	"github.com/stretchr/testify/assert"
 	"github.com/zclconf/go-cty/cty"
 )

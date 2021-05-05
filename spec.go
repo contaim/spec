@@ -11,10 +11,10 @@
 package spec
 
 import (
+	"github.com/contaim/spec/parser"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/gohcl"
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"github.com/responserms/spec/parser"
 )
 
 type specFiles map[string]*hcl.File
