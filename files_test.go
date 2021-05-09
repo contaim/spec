@@ -26,14 +26,6 @@ func TestFiles(tt *testing.T) {
 		assert.False(t, jsonFile.HasErrors())
 	})
 
-	tt.Run("glob with with invalid filetype ignores invalid filetypes", func(t *testing.T) {
-		this := spec.NewSubset()
-		diag := this.FileGlob("./testdata/glob/*.hcl")
-
-		assert.Len(t, this.ParsedFiles(), 4)
-		assert.False(t, diag.HasErrors())
-	})
-
 	tt.Run("an invalid filetype is ignored", func(t *testing.T) {
 		invalidFile := subset.Files("./testdata/thisdoesnotexist.file")
 
