@@ -1,7 +1,3 @@
-/*
- *   Copyright (c) 2020
- *   All rights reserved.
- */
 // Copyright (c) 2020 Contaim, LLC
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -11,10 +7,10 @@
 package spec
 
 import (
-	"github.com/contaim/spec/parser"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/gohcl"
 	"github.com/hashicorp/hcl/v2/hcldec"
+	"go.contaim.io/spec/parser"
 )
 
 type specFiles map[string]*hcl.File

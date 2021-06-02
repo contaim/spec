@@ -9,8 +9,8 @@ package spec_test
 import (
 	"testing"
 
-	"github.com/contaim/spec"
 	"github.com/stretchr/testify/assert"
+	"go.contaim.io/spec"
 )
 
 func TestFiles(tt *testing.T) {

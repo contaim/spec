@@ -10,9 +10,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/contaim/spec"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/stretchr/testify/assert"
+	"go.contaim.io/spec"
 )
 
 func TestDiagnostics(tt *testing.T) {

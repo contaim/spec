@@ -9,12 +9,12 @@ package parser_test
 import (
 	"testing"
 
-	"github.com/contaim/spec/parser"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hcldec"
 	"github.com/stretchr/testify/assert"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/function"
+	"go.contaim.io/spec/parser"
 )
 
 type testSpecBlockDef struct{}

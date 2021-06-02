@@ -1,7 +1,3 @@
-/*
- *   Copyright (c) 2020
- *   All rights reserved.
- */
 // Copyright (c) 2020 Contaim, LLC
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -13,12 +9,12 @@ package spec_test
 import (
 	"testing"
 
-	"github.com/contaim/spec"
-	"github.com/contaim/spec/parser"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hcldec"
 	"github.com/stretchr/testify/assert"
 	"github.com/zclconf/go-cty/cty"
+	"go.contaim.io/spec"
+	"go.contaim.io/spec/parser"
 )
 
 type testSchema struct{}

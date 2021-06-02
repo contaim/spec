@@ -1,4 +1,4 @@
-module github.com/contaim/spec
+module go.contaim.io/spec
 
 go 1.16
 
