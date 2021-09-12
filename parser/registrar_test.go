@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/function"
-	"go.contaim.io/spec/parser"
+	"github.com/contaim/spec/parser"
 )
 
 type testSpecBlockDef struct{}

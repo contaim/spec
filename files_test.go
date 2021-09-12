@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"go.contaim.io/spec"
+	"github.com/contaim/spec"
 )
 
 func TestFiles(tt *testing.T) {

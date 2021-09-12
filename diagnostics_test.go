@@ -12,7 +12,7 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/stretchr/testify/assert"
-	"go.contaim.io/spec"
+	"github.com/contaim/spec"
 )
 
 func TestDiagnostics(tt *testing.T) {

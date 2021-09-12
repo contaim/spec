@@ -13,8 +13,8 @@ import (
 	"github.com/hashicorp/hcl/v2/hcldec"
 	"github.com/stretchr/testify/assert"
 	"github.com/zclconf/go-cty/cty"
-	"go.contaim.io/spec"
-	"go.contaim.io/spec/parser"
+	"github.com/contaim/spec"
+	"github.com/contaim/spec/parser"
 )
 
 type testSchema struct{}

@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/gohcl"
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"go.contaim.io/spec/parser"
+	"github.com/contaim/spec/parser"
 )
 
 type specFiles map[string]*hcl.File
